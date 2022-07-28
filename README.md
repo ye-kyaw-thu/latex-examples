@@ -1,2 +1,2 @@
-# latex-examples-
+# latex-examples
 LaTeX Examples
