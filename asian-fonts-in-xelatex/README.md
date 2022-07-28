@@ -1,5 +1,6 @@
 ## Installing Microsoft Core Fonts 
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ sudo apt install ttf-mscorefonts-installer
 [sudo] password for ye: 
 Reading package lists... Done
@@ -205,9 +206,11 @@ Processing triggers for libc-bin (2.27-3ubuntu1.5) ...
 Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
 Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ 
+```
 
 ## Installation of Khmer OS Fonts
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ sudo apt-get install fonts-khmeros-core
 Reading package lists... Done
 Building dependency tree       
@@ -229,9 +232,11 @@ Unpacking fonts-khmeros-core (5.0-7ubuntu1) ...
 Setting up fonts-khmeros-core (5.0-7ubuntu1) ...
 Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
 
 ## Example Removing of Khmer OS Fonts
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ sudo apt-get remove fonts-khmeros-core 
 Reading package lists... Done
 Building dependency tree       
@@ -248,9 +253,11 @@ Do you want to continue? [Y/n] Y
 Removing fonts-khmeros-core (5.0-7ubuntu1) ...
 Processing triggers for fontconfig (2.12.6-0ubuntu2) ...
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ 
+```
 
 ## Installation latex-cjk-all
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ sudo apt-get install latex-cjk-all
 [sudo] password for ye: 
 Reading package lists... Done
@@ -262,9 +269,11 @@ The following packages were automatically installed and are no longer required:
 Use 'sudo apt autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 140 not upgraded.
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
 
 ## Installation of Korean Fonts
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ sudo apt-get install korean*
 Reading package lists... Done
 Building dependency tree       
@@ -284,7 +293,9 @@ The following packages were automatically installed and are no longer required:
 Use 'sudo apt autoremove' to remove them.
 0 upgraded, 0 newly installed, 0 to remove and 140 not upgraded.
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ 
+```
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ sudo apt-get install language-pack-ko
 Reading package lists... Done
 Building dependency tree       
@@ -316,9 +327,11 @@ Generating locales (this might take a while)...
   ko_KR.UTF-8... done
 Generation complete.
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
 
 ## Clear and Regenerate your Font Cache
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ fc-cache -f -v
 /usr/share/fonts: caching, new cache contents: 0 fonts, 10 dirs
 /usr/share/fonts/X11: caching, new cache contents: 0 fonts, 4 dirs
@@ -565,9 +578,11 @@ Generation complete.
 /home/ye/.fontconfig: not cleaning non-existent cache directory
 fc-cache: succeeded
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
 
 ## List Installed Fonts
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ fc-list :lang=my
 /usr/share/fonts/truetype/padauk/PadaukBook-Regular.ttf: Padauk Book:style=Regular
 /usr/share/fonts/truetype/noto/NotoSansMyanmar-Bold.ttf: Noto Sans Myanmar:style=Bold
@@ -585,9 +600,11 @@ fc-cache: succeeded
 /usr/share/fonts/truetype/padauk/PadaukBook-Bold.ttf: Padauk Book:style=Bold
 /home/ye/.local/share/fonts/Pyidaungsu-1.8.3_Bold.ttf: Pyidaungsu:style=Bold
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
 
 ## List Installed Thai Fonts
 
+```
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ fc-list :lang=th
 /usr/share/fonts/truetype/tlwg/TlwgTypo-Bold.ttf: Tlwg Typo:style=Bold
 /usr/share/fonts/truetype/noto/NotoSansThai-Regular.ttf: Noto Sans Thai:style=Regular
@@ -680,13 +697,14 @@ fc-cache: succeeded
 /usr/share/fonts/truetype/tlwg/Umpush-LightOblique.ttf: Umpush:style=Light Oblique
 /usr/share/fonts/truetype/tlwg/Umpush.ttf: Umpush:style=Regular
 (base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
 
 ## References
 
-http://www.khmerfonts.info/
-http://khmertype.blogspot.com/
-https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0
-https://github.com/larmarange/demopaedia/blob/master/fonts/THSarabun.ttf
+- http://www.khmerfonts.info/
+- http://khmertype.blogspot.com/
+- https://medium.com/source-words/how-to-manually-install-update-and-uninstall-fonts-on-linux-a8d09a3853b0
+- https://github.com/larmarange/demopaedia/blob/master/fonts/THSarabun.ttf
 
 
 
