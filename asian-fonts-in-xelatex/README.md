@@ -1,3 +1,13 @@
+## Asian Fonts in Xelatex
+
+I generally used xelatex for using Burmese, Khmer and Thai fonts.  
+Check and learn how to use Asian fonts in latex with this latex source file: [asian-font-eg.tex](https://github.com/ye-kyaw-thu/latex-examples/blob/main/asian-fonts-in-xelatex/asian-font-eg.tex)   
+
+I hope this example file is useful for you.  
+
+ye@LST, NECTEC  
+28 July 2022  
+
 ## Installing Microsoft Core Fonts 
 
 ```
