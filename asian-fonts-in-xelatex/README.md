@@ -2,6 +2,7 @@
 
 I generally used xelatex for using Burmese, Khmer and Thai fonts.  
 Check and learn how to use Asian fonts in latex with this latex source file: [asian-font-eg.tex](https://github.com/ye-kyaw-thu/latex-examples/blob/main/asian-fonts-in-xelatex/asian-font-eg.tex)   
+Compiled PDF file: [asian-font-eg.pdf](https://github.com/ye-kyaw-thu/latex-examples/blob/main/asian-fonts-in-xelatex/asian-font-eg.pdf)  
 
 I hope this example file is useful for you.  
 
