@@ -1,0 +1,81 @@
+% latex document မှာ မြန်မာစာ၊ ထိုင်း၊ ခမာ နဲ့ CJK စာတွေကို ပေါ်ဖို့ ဘယ်လို လုပ်ရသလဲ ဆိုတဲ့ example latex ပါ
+% Ye Kyaw Thu @LST, NECTEC, Thailand
+% Last Updated: 28 July 2022
+
+\documentclass[12pt]{article}
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+%\inputencoding{latin1}
+\inputencoding{utf8}
+
+% if you want to setup Khmer font as the main font
+%\newcommand{\kh}{\setmainfont{Khmer OS}}
+
+% setting the main font of this latex document
+\setmainfont{Times New Roman}
+
+% example usage of Courier New and Times New Roman
+\newcommand{\courier}{\setmainfont{Courier New}\textbf}
+\newcommand{\vsp}{\fontencoding{T3}\fontfamily{cmr}\selectfont\textvisiblespace\setmainfont{Times New Roman}}
+
+%for writing Khmer text
+% old approach
+%\newfontinstance {\kh}[Script=Khmer]{Khmer OS Siemreap}
+%\newfontinstance {\khs}[Script=Khmer,Scale=0.9]{Khmer OS Siemreap}
+
+\newfontfamily {\kh}[Script=Khmer]{Khmer OS Siemreap}
+\newfontfamily {\khs}[Script=Khmer,Scale=0.9]{Khmer OS Siemreap}
+
+% for writing Thai text
+\newfontfamily {\thaitext}[Script=Thai]{Noto Sans Thai}
+
+%for writing Myanmar text, you can also used with Myanmar3 font
+\newfontfamily {\padauktext}[Script=Myanmar]{Padauk}
+\newfontfamily {\myanmartext}[Script=Myanmar]{Myanmar3}
+%\newfontfamily {\zawgyionetext}[Script=Myanmar]{Zawgyi-One}
+%\newfontinstance {\padauktext}[Script=Myanmar]{Padauk}
+\newfontfamily {\pdstext}[Script=Myanmar]{Pyidaungsu}
+
+% for Chinese Japanese and Korean
+\usepackage{xeCJK}
+\setCJKmainfont{UnGungseo.ttf}
+\setCJKsansfont{UnGungseo.ttf}
+\setCJKmonofont{gulim.ttf}
+
+\usepackage{CJKutf8}
+
+\newcommand{\quotes}[1]{``#1''}
+
+\begin{document}
+
+\section*{Khmer Font Using Example}
+
+For example: //
+
+{\kh - \small{ខ្ញុំ ចង់ឱ្យ \textlangle{} អ្នកស្តាប់ \textrangle{} យល់ ពី បញ្ហា នេះ}}
+
+- I want listener to understand this problem\\
+
+{\kh - \small{ខ្ញុំ ចង់ឱ្យ \textlangle{} អ្នក \textrangle{} \textlangle{} ស្តាប់ \textrangle{} យល់ ពី បញ្ហា នេះ}}
+
+- I want you to listen in order to understand this problem\\
+
+\section*{Thai Font Using Example}
+
+{\thaitext ประเทศไทยคือบ้านหลังที่สามของฉัน}
+
+\section*{Myanmar Font Using Example}
+
+{\padauktext ဗမာစာ၊ ဗမာစကား ကို} \quotes{{\padauktext ပိတောက်ဖောင့်}} {\padauktext ဖြင့် ရိုက်ကြည့်ခြင်း}\\
+{\myanmartext ဗမာစာ၊ ဗမာစကား ကို} \quotes{{\padauktext Myanmar3ဖောင့်}}  {\padauktext နဲ့ ရိုက်ကြည့်ခြင်း}\\
+{\pdstext ဗမာစာ၊ ဗမာစကား ကို} \quotes{{\padauktext ပြည်ထောင်စုဖောင့်}} {\padauktext ဖြင့် ရိုက်ကြည့်ခြင်း}\\
+
+\section*{Typing Chinese, Japanese and Korean}
+
+我去过北京。\\
+京都に行ったことがあります。\\
+서울에 다녀왔습니다. \\
+
+\end{document}
+
