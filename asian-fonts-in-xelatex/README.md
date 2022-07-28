@@ -8,6 +8,91 @@ I hope this example file is useful for you.
 ye@LST, NECTEC  
 28 July 2022  
 
+The followings are some commands that I used when I prepared this example file.  
+
+## Compile the Latex Source
+
+```
+(base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$ xelatex ./asian-font-eg.tex 
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex)
+ restricted \write18 enabled.
+entering extended mode
+(./asian-font-eg.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 26 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def)))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+)
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-addon.sty
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+(/usr/share/texmf/tex/latex/tipa/t3enc.def)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def)))))
+(/usr/share/texlive/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+*** Reloading Xunicode for encoding 'TU' ***
+) (/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def)
+(/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg))
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'UnGungseo' does not contain script 'CJK'.
+*************************************************
+(./asian-font-eg.aux) (/usr/share/texmf/tex/latex/tipa/t3cmr.fd)
+*** you should *not* be loading the inputenc package
+*** XeTeX expects the source to be in UTF8 encoding
+*** some features of other encodings may conflict, resulting in poor output.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--73
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+[1] (./asian-font-eg.aux) )
+(see the transcript file for additional information)
+Output written on asian-font-eg.pdf (1 page).
+Transcript written on asian-font-eg.log.
+(base) ye@ykt-pro:~/cadt/ACET/ref-latex/final-cameara-ready-KWS-NLP2015/asian-fonts-eg$
+```
+
+## Opening the Compiled PDF File
+
+```
+evince ./asian-font-eg.pdf
+```
+
 ## Installing Microsoft Core Fonts 
 
 ```
