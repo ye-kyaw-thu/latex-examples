@@ -5,6 +5,11 @@ I referred following repository:
 [https://github.com/muratcankaracabey/latex_cv](https://github.com/muratcankaracabey/latex_cv)  
 
 The example compilation was done with my CV information.  
+I used xelatex and compiled PDF file: [ye-CV-30July2022.pdf](https://github.com/ye-kyaw-thu/latex-examples/blob/main/CV/Example1/ye-CV-30July2022.pdf)  
+
+You have to update the latex source file: [ye-CV-30July2022.tex](https://github.com/ye-kyaw-thu/latex-examples/blob/main/CV/Example1/ye-CV-30July2022.tex)  
+You might need to update the cls file also: [muratcan_cv.cls](https://github.com/ye-kyaw-thu/latex-examples/blob/main/CV/Example1/muratcan_cv.cls)  
+Your profile photo should put under "images/" folder and if the photo file size is very big it might cause error of missing homepage and github links. Refer following notes.  
 
 ## Notes Based on My Compilation Errors
 
