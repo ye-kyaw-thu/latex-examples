@@ -1,8 +1,6 @@
 # CV Example 1
 
-I referred following repository:  
-
-[https://github.com/muratcankaracabey/latex_cv](https://github.com/muratcankaracabey/latex_cv)  
+I referred this repository: [https://github.com/muratcankaracabey/latex_cv](https://github.com/muratcankaracabey/latex_cv)   
 
 The example compilation was done with my CV information.  
 I used xelatex and compiled PDF file: [ye-CV-30July2022.pdf](https://github.com/ye-kyaw-thu/latex-examples/blob/main/CV/Example1/ye-CV-30July2022.pdf)  
